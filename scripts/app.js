@@ -81,7 +81,6 @@ const app = Vue.createApp({
                             wind: weatherData.current_weather.windspeed,
                             code: weatherData.current_weather.weathercode
                         }];
-                        console.log(data.results[0]);
                     })
                     .catch(err => {
                         this.error = err.message;
