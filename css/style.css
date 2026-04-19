@@ -1,0 +1,56 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #eef2f3, #dfe9f3);
+}
+
+/* Header */
+h1 {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Cards */
+.card {
+    border-radius: 12px;
+    border: none;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Weather rows */
+.weather-row {
+    border-bottom: 1px solid #ddd;
+    padding: 8px 0;
+}
+
+/* Remove last border */
+.weather-row:last-child {
+    border-bottom: none;
+}
+
+/* Images */
+img {
+    border-radius: 50%;
+}
+
+/* MEDIA QUERY
+for smaller screens: Tablets and mobile */
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    input, button {
+        width: 100%;
+    }
+}
